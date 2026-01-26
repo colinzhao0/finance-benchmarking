@@ -1,0 +1,19 @@
+.custom-tooltip {
+  background: #ffffee;
+  border: 2px solid #999999;
+  padding: 8px;
+}
+
+.tooltip-date {
+  color: #666666;
+  font-size: 0.75rem;
+  margin: 0 0 3px 0;
+  font-weight: bold;
+}
+
+.tooltip-price {
+  color: #000000;
+  font-size: 0.95rem;
+  font-weight: bold;
+  margin: 0;
+}

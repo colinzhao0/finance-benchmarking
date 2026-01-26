@@ -1,0 +1,125 @@
+.home-page {
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 25px 0;
+}
+
+.header h1 {
+  font-size: 2.2rem;
+  color: #000000;
+  margin: 0 0 8px 0;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: #666666;
+  margin: 0;
+}
+
+.search-container {
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.watchlist-section {
+  max-width: 900px;
+  margin: 0 auto 40px;
+}
+
+.watchlist-section h2 {
+  font-size: 1.2rem;
+  margin: 0 0 10px 0;
+  color: #333333;
+  font-weight: bold;
+  padding: 8px;
+  background-color: #d4d4d4;
+  border: 1px solid #999999;
+}
+
+.popular-stocks {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.popular-stocks h2 {
+  font-size: 1.2rem;
+  margin: 0 0 10px 0;
+  color: #333333;
+  font-weight: bold;
+  padding: 8px;
+  background-color: #d4d4d4;
+  border: 1px solid #999999;
+}
+
+.stock-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+}
+
+.stock-card {
+  background: #ffffff;
+  padding: 15px;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+}
+
+.stock-card:hover {
+  background-color: #f5f5ff;
+  border-color: #6247aa;
+}
+
+.stock-symbol {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #0000cc;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.stock-name {
+  font-size: 0.8rem;
+  color: #666666;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.stock-price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000000;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.stock-change {
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: block;
+}
+
+.stock-change.positive {
+  color: #009900;
+}
+
+.stock-change.negative {
+  color: #cc0000;
+}
+
+.remove-x {
+  float: right;
+  color: #999999;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.remove-x:hover {
+  color: #cc0000;
+}

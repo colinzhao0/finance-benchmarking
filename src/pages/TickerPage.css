@@ -1,0 +1,153 @@
+.ticker-page {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: #0000cc;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 5px 0;
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+
+.ticker-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  margin-bottom: 15px;
+}
+
+.ticker-info h1 {
+  font-size: 1.8rem;
+  color: #000000;
+  margin: 0 0 5px 0;
+}
+
+.company-name {
+  color: #666666;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.price-info {
+  text-align: right;
+}
+
+.current-price {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #000000;
+  margin: 0 0 5px 0;
+}
+
+.price-change {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.price-change.positive {
+  color: #009900;
+}
+
+.price-change.negative {
+  color: #cc0000;
+}
+
+.watchlist-btn {
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: 2px solid #999999;
+  background: #ffffff;
+  color: #333333;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.watchlist-btn:hover {
+  background: #f0f0f0;
+}
+
+.watchlist-btn.active {
+  border-color: #6247aa;
+  color: #6247aa;
+}
+
+.chart-section {
+  background: #ffffff;
+  padding: 15px;
+  border: 1px solid #999999;
+  margin-bottom: 15px;
+}
+
+.time-range-selector {
+  display: flex;
+  gap: 0;
+  margin-bottom: 15px;
+  border: 1px solid #999999;
+  width: fit-content;
+}
+
+.time-range-selector button {
+  padding: 5px 15px;
+  border: none;
+  border-right: 1px solid #999999;
+  background: #f0f0f0;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.time-range-selector button:last-child {
+  border-right: none;
+}
+
+.time-range-selector button:hover {
+  background: #e0e0e0;
+}
+
+.time-range-selector button.active {
+  background: #6247aa;
+  color: white;
+}
+
+.stats-table {
+  padding: 15px 0;
+}
+
+.stat-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-bottom: 1px solid #cccccc;
+  padding: 10px 0;
+}
+
+.stat-row:last-child {
+  border-bottom: none;
+}
+
+.stat-cell {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  border-right: 1px solid #cccccc;
+}
+
+.stat-cell:last-child {
+  border-right: none;
+}
+
+.stat-label {
+  color: #666666;
+  font-size: 0.85rem;
+}
+
+.stat-value {
+  color: #000000;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
